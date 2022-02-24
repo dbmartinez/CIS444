@@ -1,0 +1,41 @@
+/* CIS444
+   Daniel Blaine Martinez
+   hw_2.css */
+
+h1 
+{
+  	color: black;
+  	border: 2px solid black;
+  	margin: 20px;
+  	padding: 20px;
+}
+
+ol 
+{
+	list-style-type: upper-roman;
+}
+
+ol ol 
+{
+	list-style-type: upper-alpha;
+}
+
+ol ol ol
+{
+	list-style-type:  decimal;
+}
+
+.compactCar
+{
+	background: hotpink;
+}
+
+.midsizeCar
+{
+	background: lightblue;
+}
+
+.sportCar
+{
+	background: red;
+}
