@@ -1,0 +1,50 @@
+/*
+	hw3.css
+    CIS444
+    Daniel Blaine Martinez
+*/
+
+/* top header */
+h1
+{
+	text-align: center;
+	font-style: normal;
+}
+
+/* header inside table */
+h2
+{
+	font-size: 1.0em;
+	text-align: center;
+	font-style: normal;
+}
+
+/* table */
+table
+{
+	margin: auto;
+	padding: 20px;
+	border-style: solid;
+	border-color: black;
+}
+
+/* table header */
+th
+{
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+/* rows */
+tr
+{
+	padding: 20px;
+}
+
+/* cells in table */
+td
+{
+	text-align: center;
+	font-style: normal;
+	border-style: solid;
+}
