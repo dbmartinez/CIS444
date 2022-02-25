@@ -40,12 +40,12 @@ else
     for(var i = 0; i < nTh; i++) 
     {
     	// write table row and cell tags and place the number value in the cell  
-		document.write("<tr>", "<td>");
-		document.write(i);
+	document.write("<tr>", "<td>");
+	document.write(i);
 		
-		// write closing cell tag for i and opening cell tag for Fib numbers  
-		document.write("</td>");
-		document.write("<td>");
+	// write closing cell tag for i and opening cell tag for Fib numbers  
+	document.write("</td>");
+	document.write("<td>");
 
         document.write(fibonacci(i));
         document.write("</td>","</tr>");
