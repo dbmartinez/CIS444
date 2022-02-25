@@ -37,20 +37,20 @@ else
 	document.write("<tr>", "<th> <h2>N Term</h2> </th>", "<th> <h2>Fibonacci</h2> </th>");
 
 	// display data
-    for(var i = 0; i < nTh; i++) 
-    {
-    	// write table row and cell tags and place the number value in the cell  
-	document.write("<tr>", "<td>");
-	document.write(i);
-		
-	// write closing cell tag for i and opening cell tag for Fib numbers  
-	document.write("</td>");
-	document.write("<td>");
+	for(var i = 0; i < nTh; i++) 
+	{
+		// write table row and cell tags and place the number value in the cell  
+		document.write("<tr>", "<td>");
+		document.write(i);
 
-        document.write(fibonacci(i));
-        document.write("</td>","</tr>");
-    }
+		// write closing cell tag for i and opening cell tag for Fib numbers  
+		document.write("</td>");
+		document.write("<td>");
 
-    // close the table
-    document.write("</tr>", "</table>");
+		document.write(fibonacci(i));
+		document.write("</td>","</tr>");
+	}
+
+    	// close the table
+    	document.write("</tr>", "</table>");
 }
